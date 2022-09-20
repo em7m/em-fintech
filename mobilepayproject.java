@@ -28,6 +28,7 @@ public class mobilepayproject {
 	System.out.println("");
 	break;
 	case 2:
+		System.out.println("Enter Amount:$");	
 		send = scan.nextInt();
 		if(balance>=send) {
 			balance=balance-send;
